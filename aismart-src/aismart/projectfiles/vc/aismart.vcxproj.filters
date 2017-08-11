@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{7fdd98a3-9ff9-46a8-a25a-a1e8e71e7241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\dialogs">
+      <UniqueIdentifier>{16293b46-8d37-4005-a537-7b9e0e7ad448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="easypr">
+      <UniqueIdentifier>{0ed142ce-fc4d-4ffb-97a7-21df4823c8d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="easypr\src">
+      <UniqueIdentifier>{9888f4a9-0797-4269-b62c-2d62be3a6264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="easypr\src\core">
+      <UniqueIdentifier>{4b51d89d-7878-4887-b9d2-8473319a23d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="easypr\thirdparty">
+      <UniqueIdentifier>{33d1018e-6ca1-4437-8f37-f437cb3368b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="easypr\thirdparty\LBP">
+      <UniqueIdentifier>{4748b0f0-f746-4051-90ed-715b9e9f7055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="easypr\thirdparty\svm">
+      <UniqueIdentifier>{7a3bbe74-fef1-4e18-b108-0ae127abd55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="easypr\thirdparty\textDetect">
+      <UniqueIdentifier>{c238fd02-5a40-4501-8aa8-78bff7405dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="easypr\src\util">
+      <UniqueIdentifier>{da6f2f7c-2596-4489-bbcf-0315eef187ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="easypr\thirdparty\mser">
+      <UniqueIdentifier>{017dcbd1-9c12-47ef-8df3-e7ae2e054a83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\aismart\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\home.cpp">
+      <Filter>gui\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\src\core\chars_identify.cpp">
+      <Filter>easypr\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\src\core\chars_recognise.cpp">
+      <Filter>easypr\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\src\core\chars_segment.cpp">
+      <Filter>easypr\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\src\core\core_func.cpp">
+      <Filter>easypr\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\src\core\feature.cpp">
+      <Filter>easypr\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\src\core\params.cpp">
+      <Filter>easypr\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\src\core\plate_detect.cpp">
+      <Filter>easypr\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\src\core\plate_judge.cpp">
+      <Filter>easypr\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\src\core\plate_locate.cpp">
+      <Filter>easypr\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\src\core\plate_recognize.cpp">
+      <Filter>easypr\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\thirdparty\LBP\helper.cpp">
+      <Filter>easypr\thirdparty\LBP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\thirdparty\LBP\lbp.cpp">
+      <Filter>easypr\thirdparty\LBP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\thirdparty\textDetect\erfilter.cpp">
+      <Filter>easypr\thirdparty\textDetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\thirdparty\svm\corrected_svm.cpp">
+      <Filter>easypr\thirdparty\svm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\src\util\kv.cpp">
+      <Filter>easypr\src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\src\util\program_options.cpp">
+      <Filter>easypr\src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\src\util\util.cpp">
+      <Filter>easypr\src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\easypr\thirdparty\mser\mser2.cpp">
+      <Filter>easypr\thirdparty\mser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\tflite_schema.cpp">
+      <Filter>gui\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\runner.cpp">
+      <Filter>gui\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\game_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\login.cpp">
+      <Filter>gui\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\register.cpp">
+      <Filter>gui\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\resetpwd.cpp">
+      <Filter>gui\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\user_manager.cpp">
+      <Filter>gui\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\browse_script.cpp">
+      <Filter>gui\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\about.cpp">
+      <Filter>gui\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\tflite_attrs.cpp">
+      <Filter>gui\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\member.cpp">
+      <Filter>gui\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\erase.cpp">
+      <Filter>gui\dialogs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\aismart\gui\dialogs\home.hpp">
+      <Filter>gui\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aismart\gui\dialogs\tflite_schema.hpp">
+      <Filter>gui\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aismart\gui\dialogs\runner.hpp">
+      <Filter>gui\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aismart\game_config.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aismart\gui\dialogs\login.hpp">
+      <Filter>gui\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aismart\gui\dialogs\register.hpp">
+      <Filter>gui\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aismart\gui\dialogs\resetpwd.hpp">
+      <Filter>gui\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aismart\gui\dialogs\user_manager.hpp">
+      <Filter>gui\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aismart\gui\dialogs\browse_script.hpp">
+      <Filter>gui\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aismart\gui\dialogs\about.hpp">
+      <Filter>gui\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aismart\gui\dialogs\tflite_attrs.hpp">
+      <Filter>gui\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aismart\gui\dialogs\member.hpp">
+      <Filter>gui\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aismart\net.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aismart\gui\dialogs\erase.hpp">
+      <Filter>gui\dialogs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

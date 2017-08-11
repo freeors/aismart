@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F5FD9E0E-8728-410B-A056-70A301865CD7}</ProjectGuid>
+    <RootNamespace>rose</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\aismart\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>../../librose;../../aismart;../../external/boost;../../external/boringssl/include;../../external/chromium;../../external/protobuf/src;../../external/tensorflow;../../external/tensorflow/tensorflow/contrib/lite/downloads/flatbuffers/include;../../external/webrtc;../../../linker/include/SDL2;../../../linker/include/SDL2_image;../../../linker/include/SDL2_ttf;../../../linker/include/opencv;../../aismart/easypr/include;../../aismart/easypr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE;BOOST_ALL_NO_LIB;WIN32_LEAN_AND_MEAN;WEBRTC_WIN;COMPILER_MSVC;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;DCHECK_ALWAYS_ON;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>ws2_32.lib;librose.lib;../../../linker/windows/lib/SDL2.lib;../../../linker/windows/lib/SDL2main.lib;../../../linker/windows/lib/SDL2_mixer.lib;../../../linker/windows/lib/SDL2_image.lib;../../../linker/windows/lib/SDL2_ttf.lib;crypt32.lib;iphlpapi.lib;secur32.lib;shlwapi.lib;wininet.lib;d3d11.lib;dxgi.lib;strmiids.lib;Strmbase.lib;dmoguids.lib;wmcodecdspuuid.lib;amstrmid.lib;msdmo.lib;winmm.lib;../../../linker/windows/lib/libvpx.lib;../../../linker/windows/lib/openh264.lib;../../../linker/windows/lib/ffmpeg.lib;../../../linker/windows/lib/opencv.lib;../../../linker/windows/lib/protobuf.lib;../../../linker/windows/lib/tensorflowlite.lib;../../../linker/windows/lib/chromium.lib;urlmon.lib;dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)..\..\..\linker\windows\dll\SDL2.dll $(TargetDir)\SDL2.dll
+copy $(SolutionDir)..\..\..\linker\windows\dll\SDL2_mixer.dll $(TargetDir)\SDL2_mixer.dll
+copy $(SolutionDir)..\..\..\linker\windows\dll\SDL2_ttf.dll $(TargetDir)\SDL2_ttf.dll
+copy $(SolutionDir)..\..\..\linker\windows\dll\SDL2_image.dll $(TargetDir)\SDL2_image.dll
+copy $(SolutionDir)..\..\..\linker\windows\dll\ffmpeg.dll $(TargetDir)\ffmpeg.dll
+copy $(SolutionDir)..\..\..\linker\windows\dll\openh264.dll $(TargetDir)\openh264.dll</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\aismart\easypr\src\core\chars_identify.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\src\core\chars_recognise.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\src\core\chars_segment.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\src\core\core_func.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\src\core\feature.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\src\core\params.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\src\core\plate_detect.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\src\core\plate_judge.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\src\core\plate_locate.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\src\core\plate_recognize.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\src\util\kv.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\src\util\program_options.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\src\util\util.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\thirdparty\LBP\helper.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\thirdparty\LBP\lbp.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\thirdparty\mser\mser2.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\thirdparty\svm\corrected_svm.cpp" />
+    <ClCompile Include="..\..\aismart\easypr\thirdparty\textDetect\erfilter.cpp" />
+    <ClCompile Include="..\..\aismart\game_config.cpp" />
+    <ClCompile Include="..\..\aismart\gui\dialogs\home.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)gui\dialogs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\login.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)gui\dialogs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\register.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)gui\dialogs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\resetpwd.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)gui\dialogs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\main.cpp" />
+    <ClCompile Include="..\..\aismart\gui\dialogs\tflite_schema.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)gui\dialogs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\runner.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)gui\dialogs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\user_manager.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)gui\dialogs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\browse_script.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)gui\dialogs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\about.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)gui\dialogs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\tflite_attrs.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)gui\dialogs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\gui\dialogs\member.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)gui\dialogs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\aismart\net.cpp" />
+    <ClCompile Include="..\..\aismart\gui\dialogs\erase.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)gui\dialogs\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)gui\dialogs\</ObjectFileName>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="librose.vcxproj">
+      <Project>{cd5c07cc-2e4b-4ecb-83e8-498a0624ec5f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\aismart\game_config.hpp" />
+    <ClInclude Include="..\..\aismart\gui\dialogs\home.hpp" />
+    <ClInclude Include="..\..\aismart\gui\dialogs\login.hpp" />
+    <ClInclude Include="..\..\aismart\gui\dialogs\register.hpp" />
+    <ClInclude Include="..\..\aismart\gui\dialogs\resetpwd.hpp" />
+    <ClInclude Include="..\..\aismart\gui\dialogs\tflite_schema.hpp" />
+    <ClInclude Include="..\..\aismart\gui\dialogs\runner.hpp" />
+    <ClInclude Include="..\..\aismart\gui\dialogs\user_manager.hpp" />
+    <ClInclude Include="..\..\aismart\gui\dialogs\browse_script.hpp" />
+    <ClInclude Include="..\..\aismart\gui\dialogs\about.hpp" />
+    <ClInclude Include="..\..\aismart\gui\dialogs\tflite_attrs.hpp" />
+    <ClInclude Include="..\..\aismart\gui\dialogs\member.hpp" />
+    <ClInclude Include="..\..\aismart\net.hpp" />
+    <ClInclude Include="..\..\aismart\gui\dialogs\erase.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "librose", "librose.vcxproj", "{CD5C07CC-2E4B-4ECB-83E8-498A0624EC5F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aismart", "aismart.vcxproj", "{F5FD9E0E-8728-410B-A056-70A301865CD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD5C07CC-2E4B-4ECB-83E8-498A0624EC5F}.Release|Win32.ActiveCfg = Release|Win32
+		{CD5C07CC-2E4B-4ECB-83E8-498A0624EC5F}.Release|Win32.Build.0 = Release|Win32
+		{F5FD9E0E-8728-410B-A056-70A301865CD7}.Release|Win32.ActiveCfg = Release|Win32
+		{F5FD9E0E-8728-410B-A056-70A301865CD7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9288EE17-7012-4363-A23A-277DE9342B0B}
+	EndGlobalSection
+EndGlobal

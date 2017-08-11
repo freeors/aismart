@@ -1,0 +1,656 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: aismart-lib\n"
+"POT-Creation-Date: 2018-04-16 09:46+0800\n"
+"PO-Revision-Date: 2016-01-03 20:34+0800\n"
+"Last-Translator: service <service@leagor.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-KeywordsList: _;vgettext2\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: apps-src/apps/aismart\n"
+"X-Poedit-SearchPath-1: apps-res/po/app-aismart/cfg-cpp/aismart-lib\n"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/_bonus.cpp:1
+msgid "aismart"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/_bonus.cpp:3
+msgid "ocr_chinese_v1_224 is actually mobilenet_quant_v1_224, so the result must be wrong. And because the input is 224x224, it will make the recognition spend too much time."
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:1
+msgid "Click to login"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:3
+msgid "Comment"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:5
+msgid "Commit"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:7
+msgid "Copy files to Documents"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:9
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:102
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:814
+msgid "Device"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:11
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1602
+msgid "Download"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:13
+msgid "Erase"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:15
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1495
+msgid "Follow"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:17
+msgid "Full screen"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:19
+#: apps-src/apps/aismart/gui/dialogs/erase.cpp:64
+#: apps-src/apps/aismart/gui/dialogs/erase.cpp:151
+#: apps-src/apps/aismart/gui/dialogs/register.cpp:64
+#: apps-src/apps/aismart/gui/dialogs/register.cpp:210
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:70
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:214
+msgid "Get"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:21
+msgid "Help"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:23
+msgid "I have read and agreed to Sesame User Agreement"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:25
+msgid "I have read and agreed to agreement"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:27
+msgid "If commit fails, please contact ancientcc@leagor.com"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:29
+msgid "Language"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:31
+msgid "Limit followed"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:33
+#: apps-src/apps/aismart/gui/dialogs/login.cpp:68
+msgid "Login"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:35
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1887
+msgid "Logout"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:37
+msgid "Look over"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:39
+msgid "Member"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:41
+msgid "Member rights"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:43
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:111
+msgid "More"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:45
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:82
+msgid "Net disk"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:47
+msgid "Normal"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:49
+#: apps-src/apps/aismart/gui/dialogs/login.cpp:108
+#: apps-src/apps/aismart/gui/dialogs/register.cpp:120
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:125
+msgid "Password"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:51
+#: apps-src/apps/aismart/gui/dialogs/register.cpp:74
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:62
+msgid "Register"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:53
+msgid "Require test"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:55
+msgid "Reset password"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:57
+msgid "Resolution"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:59
+msgid "Select screenshot"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:61
+msgid "State"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:63
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:99
+msgid "Test"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:65
+msgid "Upload"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:67
+msgid "VIP"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:69
+msgid "VIP1"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:71
+msgid "VIP2"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:73
+msgid "user^Erase"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:31
+msgid "tflite.source must not empty."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:45
+msgid "if tflite.source is image, it's first must not be '/'."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:49
+msgid "if tflite.source is image, must not contain '\\'."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:58
+msgid "Unknown tflite.source: "
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:68
+msgid "tflite.scenario must not empty."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:75
+msgid "tflite.scenario doesn't support object detect."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:88
+msgid "Unknown tflite.scenario: "
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:98
+msgid "tflite.color must not empty."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:114
+msgid "Unknown tflite.color: "
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:126
+msgid "tflite.tflite must be set."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:141
+msgid "tflite.width must be > 0."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:147
+msgid "tflite.height must be > 0."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:157
+msgid "tflite.kthreshold must be (0, 1)."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:278
+msgid "CNN"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:279
+msgid "RNN"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:280
+msgid "MobileNets"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:281
+msgid "Inception V3"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:282
+msgid "Inception V5"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:283
+msgid "VGG"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:284
+msgid "LSTM"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:285
+msgid "Smart Replay"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:289
+msgid "Debugging"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:290
+msgid "Training"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:291
+msgid "Commercially"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/erase.cpp:86
+#: apps-src/apps/aismart/gui/dialogs/register.cpp:107
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:112
+msgid "Verification code"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/erase.cpp:90
+msgid "Once written off, all your data on the server will be deleted, including mobile number, password, nickname, models, test scripts, image files, comments, and so on."
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:105
+msgid "Service"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:108
+msgid "Showcase"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:240
+msgid "$count items"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:242
+msgid "space^Available"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:333
+msgid "Script"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:355
+msgid "$file (Abscent)"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:357
+msgid "$file (Invalid)"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:362
+msgid "tflits"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:367
+msgid "Camera"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:373
+msgid "$png (Abscent)"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:382
+msgid "classifier"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:385
+msgid "obejct detect"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:388
+msgid "OCR"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:391
+msgid "plate recognition"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:406
+msgid "$width x $height x $color"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:407
+msgid "Model input"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:413
+msgid "kthreshold"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:884
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:178
+msgid "Uploading"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:918
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:937
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:954
+msgid "Do you want to delete $item from Documents?"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:918
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:937
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:954
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1313
+msgid "Delete"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1115
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1204
+msgid "Out showcase"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1115
+msgid "Into showcase"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1204
+msgid "Once out of showcase, follows will be cleared, do you want to out $item?"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1271
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1273
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1618
+msgid "Downloading"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1313
+msgid "Do you want to delete $item?"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1319
+msgid "Deleting"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1369
+msgid "Discover"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1473
+msgid "$count models"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1495
+msgid "Unfollow"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1514
+msgid "Find model"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1602
+msgid "Model User Agreement"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1631
+msgid "vip^Join"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1633
+msgid "Renew"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1635
+msgid "Update"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1643
+msgid "Waiting handle"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1696
+msgid "Exit fullscreen"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1696
+msgid "Enter fullscreen"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1817
+msgid "$vip membership will expire on $time"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1850
+msgid "New nickname"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1887
+msgid "Once logout, app will not automatically login next time."
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/login.cpp:98
+msgid "Mobile"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:39
+msgid "Join VIP"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:40
+msgid "The steps of be a VIP"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:41
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:46
+msgid "400 RMB(VIP1) or 800 RBM(VIP2)"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:44
+msgid "Renew VIP"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:45
+msgid "The steps of renew VIP"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:49
+msgid "Update VIP"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:50
+msgid "The steps of update VIP"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:61
+msgid "$amount RMB"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:64
+msgid "Run Alipay, pay $money to the right side of account."
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:65
+msgid "Cut a screenshot that contains 'Bill details' of the transaction record. There is at least the payment time, amount and the payer."
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:66
+msgid "Upload screenshot to AI Smart."
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:89
+msgid "Annual fee"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:96
+msgid "Annotation"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:123
+msgid "Select pay screenshot"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:133
+msgid "Choose a screenshot to Load"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:134
+msgid "gui/window"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/register.cpp:93
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:98
+msgid "I have read and agreed to $agreement"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/register.cpp:100
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:105
+msgid "Mobile number"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:62
+msgid "Bind Sesame Account"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/tflite_attrs.cpp:44
+#: apps-src/apps/aismart/gui/dialogs/tflite_attrs.cpp:56
+#: apps-src/apps/aismart/gui/dialogs/tflite_attrs.cpp:184
+msgid "Not set"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/tflite_attrs.cpp:66
+msgid "Model's description"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/tflite_attrs.cpp:93
+msgid "New name"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/tflite_attrs.cpp:122
+msgid "Select state"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/tflite_attrs.cpp:165
+msgid "Select keyword"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/tflite_schema.cpp:134
+#: apps-src/apps/aismart/gui/dialogs/tflite_schema.cpp:321
+msgid "Builtin Operator"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/user_manager.cpp:98
+msgid "Long press *.tflite(require labels.txt), *.png or *.cfg, and drag it to right 'Docuemnt' icon."
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/user_manager.cpp:102
+msgid "Drag it to right 'Document' icon."
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/user_manager.cpp:113
+msgid "Release will copy $files to userdata."
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/user_manager.cpp:308
+msgid "$file is existed in userdata, do you want to overwirte it?"
+msgstr ""
+
+#: apps-src/apps/aismart/main.cpp:111
+msgid "Field"
+msgstr ""
+
+#: apps-src/apps/aismart/net.cpp:57
+msgid "You are not logged in"
+msgstr ""
+
+#: apps-src/apps/aismart/net.cpp:72
+msgid "Mobile is existed"
+msgstr ""
+
+#: apps-src/apps/aismart/net.cpp:75
+msgid "Mobile isn't existed"
+msgstr ""
+
+#: apps-src/apps/aismart/net.cpp:78
+msgid "Password error"
+msgstr ""
+
+#: apps-src/apps/aismart/net.cpp:84
+msgid "Your account is logined at $time in different places. If it is not your operation, your password has been leaked. Please as soon as possible to modify the password."
+msgstr ""
+
+#: apps-src/apps/aismart/net.cpp:90
+msgid "The version is too low, please upgrade AI Smart."
+msgstr ""
+
+#: apps-src/apps/aismart/net.cpp:171 apps-src/apps/aismart/net.cpp:262
+#: apps-src/apps/aismart/net.cpp:347 apps-src/apps/aismart/net.cpp:420
+#: apps-src/apps/aismart/net.cpp:505 apps-src/apps/aismart/net.cpp:576
+#: apps-src/apps/aismart/net.cpp:646 apps-src/apps/aismart/net.cpp:717
+#: apps-src/apps/aismart/net.cpp:837 apps-src/apps/aismart/net.cpp:977
+#: apps-src/apps/aismart/net.cpp:1082 apps-src/apps/aismart/net.cpp:1167
+#: apps-src/apps/aismart/net.cpp:1245 apps-src/apps/aismart/net.cpp:1337
+#: apps-src/apps/aismart/net.cpp:1426 apps-src/apps/aismart/net.cpp:1530
+msgid "Invalid data."
+msgstr ""
+
+#: apps-src/apps/aismart/net.cpp:182 apps-src/apps/aismart/net.cpp:209
+#: apps-src/apps/aismart/net.cpp:273 apps-src/apps/aismart/net.cpp:358
+#: apps-src/apps/aismart/net.cpp:430 apps-src/apps/aismart/net.cpp:455
+#: apps-src/apps/aismart/net.cpp:516 apps-src/apps/aismart/net.cpp:587
+#: apps-src/apps/aismart/net.cpp:657 apps-src/apps/aismart/net.cpp:728
+#: apps-src/apps/aismart/net.cpp:848 apps-src/apps/aismart/net.cpp:988
+#: apps-src/apps/aismart/net.cpp:1065 apps-src/apps/aismart/net.cpp:1073
+#: apps-src/apps/aismart/net.cpp:1093 apps-src/apps/aismart/net.cpp:1178
+#: apps-src/apps/aismart/net.cpp:1256 apps-src/apps/aismart/net.cpp:1320
+#: apps-src/apps/aismart/net.cpp:1328 apps-src/apps/aismart/net.cpp:1348
+#: apps-src/apps/aismart/net.cpp:1437 apps-src/apps/aismart/net.cpp:1541
+msgid "Unknown error."
+msgstr ""
+
+#: apps-src/apps/aismart/net.cpp:909
+msgid "Special file is empty, can not upload."
+msgstr ""
+
+#: apps-src/apps/aismart/net.cpp:914
+msgid "Your available space is not enough, can not upload."
+msgstr ""

@@ -1,0 +1,5 @@
+This directory contains below image.
+1)used by all widget.
+2)dialog frame image.
+
+This directory can overload image locate at <res>/data/core/images/widgets.

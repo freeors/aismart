@@ -1,0 +1,805 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: aismart-lib\n"
+"Report-Msgid-Bugs-To: http://www.libsdl.cn/\n"
+"POT-Creation-Date: 2018-04-16 09:46+0800\n"
+"PO-Revision-Date: 2018-04-16 09:46+0800\n"
+"Last-Translator: ancientcc <ancientcc@leagor.com>\n"
+"Language-Team: Chinese/Simplified <i18n-translation@lists.linux.net.cn>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Bookmarks: -1,-1,-1,3,-1,-1,-1,-1,-1,-1\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/_bonus.cpp:1
+msgid "aismart"
+msgstr "AI Smart"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/_bonus.cpp:3
+msgid ""
+"ocr_chinese_v1_224 is actually mobilenet_quant_v1_224, so the result must be "
+"wrong. And because the input is 224x224, it will make the recognition spend "
+"too much time."
+msgstr ""
+"ocr_chinese_v1_224其实是mobilenet_quant_v1_224，因而识别出的字符肯定是错的。"
+"而且由于输入是224x224，会使得识别花费过多时间。"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:1
+msgid "Click to login"
+msgstr "点击登录"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:3
+msgid "Comment"
+msgstr "评论"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:5
+msgid "Commit"
+msgstr "提交"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:7
+msgid "Copy files to Documents"
+msgstr "复制文件到文档目录"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:9
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:102
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:814
+msgid "Device"
+msgstr "设备"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:11
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1602
+msgid "Download"
+msgstr "下载"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:13
+msgid "Erase"
+msgstr "删除"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:15
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1495
+msgid "Follow"
+msgstr "关注"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:17
+msgid "Full screen"
+msgstr "全屏"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:19
+#: apps-src/apps/aismart/gui/dialogs/erase.cpp:64
+#: apps-src/apps/aismart/gui/dialogs/erase.cpp:151
+#: apps-src/apps/aismart/gui/dialogs/register.cpp:64
+#: apps-src/apps/aismart/gui/dialogs/register.cpp:210
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:70
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:214
+msgid "Get"
+msgstr "获取"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:21
+msgid "Help"
+msgstr "帮助"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:23
+msgid "I have read and agreed to Sesame User Agreement"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:25
+msgid "I have read and agreed to agreement"
+msgstr "我已经阅读并同意协议"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:27
+msgid "If commit fails, please contact ancientcc@leagor.com"
+msgstr "如果提交失败，请联系ancientcc@leagor.com"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:29
+msgid "Language"
+msgstr "语言"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:31
+msgid "Limit followed"
+msgstr "只限关注"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:33
+#: apps-src/apps/aismart/gui/dialogs/login.cpp:68
+msgid "Login"
+msgstr "登录"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:35
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1887
+msgid "Logout"
+msgstr "退出登录"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:37
+msgid "Look over"
+msgstr "查看"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:39
+msgid "Member"
+msgstr "会员"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:41
+msgid "Member rights"
+msgstr "会员权利"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:43
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:111
+msgid "More"
+msgstr "更多"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:45
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:82
+msgid "Net disk"
+msgstr "网盘"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:47
+msgid "Normal"
+msgstr "普通"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:49
+#: apps-src/apps/aismart/gui/dialogs/login.cpp:108
+#: apps-src/apps/aismart/gui/dialogs/register.cpp:120
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:125
+msgid "Password"
+msgstr "密码"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:51
+#: apps-src/apps/aismart/gui/dialogs/register.cpp:74
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:62
+msgid "Register"
+msgstr "注册"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:53
+msgid "Require test"
+msgstr "设为测试"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:55
+msgid "Reset password"
+msgstr "重置密码"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:57
+msgid "Resolution"
+msgstr "分辨率"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:59
+msgid "Select screenshot"
+msgstr "选择截图"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:61
+msgid "State"
+msgstr "状态"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:63
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:99
+msgid "Test"
+msgstr "测试"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:65
+msgid "Upload"
+msgstr "上传"
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:67
+msgid "VIP"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:69
+msgid "VIP1"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:71
+msgid "VIP2"
+msgstr ""
+
+#: apps-res/po/app-aismart/cfg-cpp/aismart-lib/gui.cpp:73
+msgid "user^Erase"
+msgstr "注销"
+
+#: apps-src/apps/aismart/game_config.cpp:31
+msgid "tflite.source must not empty."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:45
+msgid "if tflite.source is image, it's first must not be '/'."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:49
+msgid "if tflite.source is image, must not contain '\\'."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:58
+msgid "Unknown tflite.source: "
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:68
+msgid "tflite.scenario must not empty."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:75
+msgid "tflite.scenario doesn't support object detect."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:88
+msgid "Unknown tflite.scenario: "
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:98
+msgid "tflite.color must not empty."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:114
+msgid "Unknown tflite.color: "
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:126
+msgid "tflite.tflite must be set."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:141
+msgid "tflite.width must be > 0."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:147
+msgid "tflite.height must be > 0."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:157
+msgid "tflite.kthreshold must be (0, 1)."
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:278
+msgid "CNN"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:279
+msgid "RNN"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:280
+msgid "MobileNets"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:281
+msgid "Inception V3"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:282
+msgid "Inception V5"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:283
+msgid "VGG"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:284
+msgid "LSTM"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:285
+msgid "Smart Replay"
+msgstr ""
+
+#: apps-src/apps/aismart/game_config.cpp:289
+msgid "Debugging"
+msgstr "调试中"
+
+#: apps-src/apps/aismart/game_config.cpp:290
+msgid "Training"
+msgstr "训练中"
+
+#: apps-src/apps/aismart/game_config.cpp:291
+msgid "Commercially"
+msgstr "可商用"
+
+#: apps-src/apps/aismart/gui/dialogs/erase.cpp:86
+#: apps-src/apps/aismart/gui/dialogs/register.cpp:107
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:112
+msgid "Verification code"
+msgstr "短信验证码"
+
+#: apps-src/apps/aismart/gui/dialogs/erase.cpp:90
+msgid ""
+"Once written off, all your data on the server will be deleted, including "
+"mobile number, password, nickname, models, test scripts, image files, "
+"comments, and so on."
+msgstr ""
+"一旦注销，您在服务器上所有数据都会被删除，包括手机号，密码，昵称，模型，测试"
+"脚本，图像文件，评论，等等。"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:105
+msgid "Service"
+msgstr "服务"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:108
+msgid "Showcase"
+msgstr "厨窗"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:240
+msgid "$count items"
+msgstr "$count个项目"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:242
+msgid "space^Available"
+msgstr "可用空间"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:333
+msgid "Script"
+msgstr "脚本"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:355
+msgid "$file (Abscent)"
+msgstr "$file (缺失)"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:357
+msgid "$file (Invalid)"
+msgstr "$file (无效)"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:362
+msgid "tflits"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:367
+msgid "Camera"
+msgstr "摄像头"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:373
+msgid "$png (Abscent)"
+msgstr "$png (缺失)"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:382
+msgid "classifier"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:385
+msgid "obejct detect"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:388
+msgid "OCR"
+msgstr "OCR"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:391
+msgid "plate recognition"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:406
+msgid "$width x $height x $color"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:407
+msgid "Model input"
+msgstr "模型输入"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:413
+msgid "kthreshold"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:884
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:178
+msgid "Uploading"
+msgstr "上传中"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:918
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:937
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:954
+msgid "Do you want to delete $item from Documents?"
+msgstr "你想从文档目录删除$item吗?"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:918
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:937
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:954
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1313
+msgid "Delete"
+msgstr "删除"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1115
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1204
+msgid "Out showcase"
+msgstr "移出厨窗"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1115
+msgid "Into showcase"
+msgstr "放入厨窗"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1204
+msgid ""
+"Once out of showcase, follows will be cleared, do you want to out $item?"
+msgstr "一旦移出橱窗，关注数要被清零。确定要移出$item吗？"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1271
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1273
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1618
+msgid "Downloading"
+msgstr "下载中"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1313
+msgid "Do you want to delete $item?"
+msgstr "你想删除$item吗?"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1319
+msgid "Deleting"
+msgstr "删除中"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1369
+msgid "Discover"
+msgstr "发现"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1473
+msgid "$count models"
+msgstr "$count个模型"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1495
+msgid "Unfollow"
+msgstr "取消关注"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1514
+msgid "Find model"
+msgstr "查找模型"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1602
+msgid "Model User Agreement"
+msgstr "模型许可协议"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1631
+msgid "vip^Join"
+msgstr "开通"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1633
+msgid "Renew"
+msgstr "续费"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1635
+msgid "Update"
+msgstr "升级"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1643
+msgid "Waiting handle"
+msgstr "等待处理"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1696
+msgid "Exit fullscreen"
+msgstr "退出全屏"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1696
+msgid "Enter fullscreen"
+msgstr "进入全屏"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1817
+msgid "$vip membership will expire on $time"
+msgstr "$vip会员资格将在$time到期"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1850
+msgid "New nickname"
+msgstr "新昵称"
+
+#: apps-src/apps/aismart/gui/dialogs/home.cpp:1887
+msgid "Once logout, app will not automatically login next time."
+msgstr "一旦退出，下次运行时不会自动登录。"
+
+#: apps-src/apps/aismart/gui/dialogs/login.cpp:98
+msgid "Mobile"
+msgstr "手机"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:39
+msgid "Join VIP"
+msgstr "开通VIP"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:40
+msgid "The steps of be a VIP"
+msgstr "开通VIP步骤"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:41
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:46
+msgid "400 RMB(VIP1) or 800 RBM(VIP2)"
+msgstr "400 RMB(VIP1)或800 RBM(VIP2)"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:44
+msgid "Renew VIP"
+msgstr "VIP续费"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:45
+msgid "The steps of renew VIP"
+msgstr "续费VIP步骤"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:49
+msgid "Update VIP"
+msgstr "升级到VIP2"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:50
+msgid "The steps of update VIP"
+msgstr "升级VIP步骤"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:61
+msgid "$amount RMB"
+msgstr "$amount RMB"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:64
+msgid "Run Alipay, pay $money to the right side of account."
+msgstr "运行支付宝，向右侧的账号支付$money。"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:65
+msgid ""
+"Cut a screenshot that contains 'Bill details' of the transaction record. "
+"There is at least the payment time, amount and the payer."
+msgstr ""
+"把该条交易记录的“账单详情”截个图。图中至少有支付时间、支付金额、支付人。"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:66
+msgid "Upload screenshot to AI Smart."
+msgstr "把截图上传到AI Smart。"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:89
+msgid "Annual fee"
+msgstr "年费"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:96
+msgid "Annotation"
+msgstr "附注"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:123
+msgid "Select pay screenshot"
+msgstr "选择支付截图"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:133
+msgid "Choose a screenshot to Load"
+msgstr "选择要上传的截图"
+
+#: apps-src/apps/aismart/gui/dialogs/member.cpp:134
+msgid "gui/window"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/register.cpp:93
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:98
+msgid "I have read and agreed to $agreement"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/register.cpp:100
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:105
+msgid "Mobile number"
+msgstr "手机号"
+
+#: apps-src/apps/aismart/gui/dialogs/resetpwd.cpp:62
+msgid "Bind Sesame Account"
+msgstr ""
+
+#: apps-src/apps/aismart/gui/dialogs/tflite_attrs.cpp:44
+#: apps-src/apps/aismart/gui/dialogs/tflite_attrs.cpp:56
+#: apps-src/apps/aismart/gui/dialogs/tflite_attrs.cpp:184
+msgid "Not set"
+msgstr "未设置"
+
+#: apps-src/apps/aismart/gui/dialogs/tflite_attrs.cpp:66
+msgid "Model's description"
+msgstr "模型描述"
+
+#: apps-src/apps/aismart/gui/dialogs/tflite_attrs.cpp:93
+msgid "New name"
+msgstr "新名称"
+
+#: apps-src/apps/aismart/gui/dialogs/tflite_attrs.cpp:122
+msgid "Select state"
+msgstr "选择状态"
+
+#: apps-src/apps/aismart/gui/dialogs/tflite_attrs.cpp:165
+msgid "Select keyword"
+msgstr "选择关键字"
+
+#: apps-src/apps/aismart/gui/dialogs/tflite_schema.cpp:134
+#: apps-src/apps/aismart/gui/dialogs/tflite_schema.cpp:321
+msgid "Builtin Operator"
+msgstr "内置运算"
+
+#: apps-src/apps/aismart/gui/dialogs/user_manager.cpp:98
+msgid ""
+"Long press *.tflite(require labels.txt), *.png or *.cfg, and drag it to "
+"right 'Docuemnt' icon."
+msgstr ""
+"长按*.tflite(需要存在labels.txt)，或*.png，或*.cfg，拖拽到右侧的“用户文档”图"
+"标。"
+
+#: apps-src/apps/aismart/gui/dialogs/user_manager.cpp:102
+msgid "Drag it to right 'Document' icon."
+msgstr "拖拽到右侧的“用户文档”图标。"
+
+#: apps-src/apps/aismart/gui/dialogs/user_manager.cpp:113
+msgid "Release will copy $files to userdata."
+msgstr "松开将复制$files到文档目录"
+
+#: apps-src/apps/aismart/gui/dialogs/user_manager.cpp:308
+msgid "$file is existed in userdata, do you want to overwirte it?"
+msgstr "在用户目录中已存在$file，你想覆盖它吗?"
+
+#: apps-src/apps/aismart/main.cpp:111
+msgid "Field"
+msgstr ""
+
+#: apps-src/apps/aismart/net.cpp:57
+msgid "You are not logged in"
+msgstr "您没有登录"
+
+#: apps-src/apps/aismart/net.cpp:72
+msgid "Mobile is existed"
+msgstr "手机号已被注册"
+
+#: apps-src/apps/aismart/net.cpp:75
+msgid "Mobile isn't existed"
+msgstr "手机号错误"
+
+#: apps-src/apps/aismart/net.cpp:78
+msgid "Password error"
+msgstr "密码错误"
+
+#: apps-src/apps/aismart/net.cpp:84
+msgid ""
+"Your account is logined at $time in different places. If it is not your "
+"operation, your password has been leaked. Please as soon as possible to "
+"modify the password."
+msgstr ""
+"你的帐号于$time在异地登录。如果这不是你的操作，你的密码已经泄露。请尽快修改密"
+"码。"
+
+#: apps-src/apps/aismart/net.cpp:90
+msgid "The version is too low, please upgrade AI Smart."
+msgstr "版本过低，请升级AI Smart。"
+
+#: apps-src/apps/aismart/net.cpp:171 apps-src/apps/aismart/net.cpp:262
+#: apps-src/apps/aismart/net.cpp:347 apps-src/apps/aismart/net.cpp:420
+#: apps-src/apps/aismart/net.cpp:505 apps-src/apps/aismart/net.cpp:576
+#: apps-src/apps/aismart/net.cpp:646 apps-src/apps/aismart/net.cpp:717
+#: apps-src/apps/aismart/net.cpp:837 apps-src/apps/aismart/net.cpp:977
+#: apps-src/apps/aismart/net.cpp:1082 apps-src/apps/aismart/net.cpp:1167
+#: apps-src/apps/aismart/net.cpp:1245 apps-src/apps/aismart/net.cpp:1337
+#: apps-src/apps/aismart/net.cpp:1426 apps-src/apps/aismart/net.cpp:1530
+msgid "Invalid data."
+msgstr ""
+
+#: apps-src/apps/aismart/net.cpp:182 apps-src/apps/aismart/net.cpp:209
+#: apps-src/apps/aismart/net.cpp:273 apps-src/apps/aismart/net.cpp:358
+#: apps-src/apps/aismart/net.cpp:430 apps-src/apps/aismart/net.cpp:455
+#: apps-src/apps/aismart/net.cpp:516 apps-src/apps/aismart/net.cpp:587
+#: apps-src/apps/aismart/net.cpp:657 apps-src/apps/aismart/net.cpp:728
+#: apps-src/apps/aismart/net.cpp:848 apps-src/apps/aismart/net.cpp:988
+#: apps-src/apps/aismart/net.cpp:1065 apps-src/apps/aismart/net.cpp:1073
+#: apps-src/apps/aismart/net.cpp:1093 apps-src/apps/aismart/net.cpp:1178
+#: apps-src/apps/aismart/net.cpp:1256 apps-src/apps/aismart/net.cpp:1320
+#: apps-src/apps/aismart/net.cpp:1328 apps-src/apps/aismart/net.cpp:1348
+#: apps-src/apps/aismart/net.cpp:1437 apps-src/apps/aismart/net.cpp:1541
+msgid "Unknown error."
+msgstr ""
+
+#: apps-src/apps/aismart/net.cpp:909
+msgid "Special file is empty, can not upload."
+msgstr ""
+
+#: apps-src/apps/aismart/net.cpp:914
+msgid "Your available space is not enough, can not upload."
+msgstr "你的可用空间不足，不能上传。"
+
+#~ msgid "Qeustion"
+#~ msgstr "提问"
+
+#~ msgid "Pull down to refresh"
+#~ msgstr "继续下拉，刷新精彩"
+
+#~ msgid "Stop pull to start refreshing"
+#~ msgstr "该放手了，要刷新啦"
+
+#~ msgid ""
+#~ "Can not connect to network. Please check if the Internet is connected."
+#~ msgstr "无法连接到网络，请检查网络设置。"
+
+#~ msgid "Upload fail."
+#~ msgstr "上传失败。"
+
+#~ msgid "Download fail."
+#~ msgstr "下载失败。"
+
+#~ msgid "Local"
+#~ msgstr "本地"
+
+#~ msgid "agreement content"
+#~ msgstr ""
+#~ "重要须知━请认真阅读：本最终用户许可协议（以下称《协议》）是您（个人或单一"
+#~ "机构团体）与ancientcc（以下称甲方）之间有关软件的法律协议。本软件产品包括"
+#~ "模型文件（*.tflits）、相关非加密模型文件（*.tflite），并且还可能包括相关媒"
+#~ "体、印刷材料和“联机”或电子文档（以下称“软件产品”）。任何与“软件产品”一同提"
+#~ "供给您的并且与另一份单独的最终用户许可协议有关的软件是按该许可协议的条款而"
+#~ "被授予的。您一旦下载、安装、复制、或以其它方式使用本软件，即表示您同意接受"
+#~ "本《协议》各项条款的约束。如您不同意本《协议》的条款，请不要下载、安装或使"
+#~ "用本软件。\n"
+#~ "\n"
+#~ "软件产品许可协议\n"
+#~ "本“软件产品”受著作权法及国际条约条款和其它知识产权法及条约的保护。本“软件"
+#~ "产品”只是提供使用许可协议，而非出售。\n"
+#~ "\n"
+#~ "１．许可证的授予。本《协议》授予您下列权利：\n"
+#~ "．系统软件。您可在单一计算机上，包括工作站、终端机或其它电子设备（“计算"
+#~ "机”），安装和使用本“软件产品”的一份副本。\n"
+#~ "\n"
+#~ "．储存／网络用途。您也可以在一个储存装置（例如网络服务器）上储存或安装“软"
+#~ "件产品”的一个副本，该储存装置仅用于通过您内部网络在您其它计算机上安装或运"
+#~ "行“软件产品”；但，您必须为每台安装、使用、显示或运行“软件产品”的计算机或从"
+#~ "每台可访问“软件产品”的计算机，获取并指定一份许可证。一份“软件产品”的许可证"
+#~ "不得供不同的计算机共享或同时使用。无论上文如何说明，无数量限制的“计算机”可"
+#~ "以访问或以其他方式使用“软件产品”的文件、打印及同位网服务。\n"
+#~ "\n"
+#~ "２．其它权利和限制说明。\n"
+#~ "．对解密（Decrypt）、反相工程（Reverse Engineering）、反编译"
+#~ "（Decompilation）、反汇编（Disassembly）的限制。您不得对本“软件产品”进行解"
+#~ "密（Decrypt）、反相工程（reverse engineer）、反编译（decompile）或反汇编"
+#~ "（disassemble），但如相关法律明文禁止上述限制，则不在此限。\n"
+#~ "\n"
+#~ "．各部分的分开。本“软件产品”是被当成一个单一产品而被授予许可协议，不得将各"
+#~ "个部分分开在多台计算机上使用。\n"
+#~ "\n"
+#~ "．出租。不得出租、租赁或出借本“软件产品”。 \n"
+#~ "\n"
+#~ "．软件的转让。不得向他人转让本“软件产品”。 \n"
+#~ "\n"
+#~ "．终止。如您未遵守本《协议》的各项条件，在不损害其它权利的情况下，甲方可将"
+#~ "本《协议》终止。如发生此种情况，则您必须销毁“软件”及其各部分的所有副本。\n"
+#~ "\n"
+#~ "3．著作权。本“软件产品”（包括但不限于本“软件产品”中所含模型文件（*."
+#~ "tflits）、相关非加密模型文件（*.tflite）的产权和知识产权，均由甲方拥有。通"
+#~ "过使用“软件产品”可以访问的内容的一切所有权和知识产权均属于各自内容所有者拥"
+#~ "有，并可能受适用著作权或其它知识产权法律和条约的保护。本《协议》不授予您使"
+#~ "用这些内容的权利。\n"
+#~ "\n"
+#~ "4. 无其他保证责任在适用法律所允许的最大范围内，甲方不做其他明示或默示保"
+#~ "证，其中包括（但不限于）有关“软件产品”及随附的产品使用手册、书面资料与硬件"
+#~ "的适销性或符合特定使用目的的默示保证。\n"
+#~ "\n"
+#~ "5. 就间接损害不负赔偿责任在适用法律所允许的最大范围内，甲方或其供应商绝不"
+#~ "就因使用或不能使用本“软件产品”所发生的其他损害（包括，但不限于营业利润的损"
+#~ "失、营业中断、商业信息的遗失或其他金钱上的损失）负赔偿责任，即使是甲方事先"
+#~ "被告知该损害发生的可能性。不论任何情况，甲方依本《协议》任何条款所应负的责"
+#~ "任总额，以您就“软件产品”所实际已付的价款为限。 \n"
+#~ "\n"
+#~ "本《协议》受中华人民共和国有关法律管辖若您就本《协议》有任何疑问，或您因任"
+#~ "何事情拟洽询甲方时，请函洽甲方。"
+
+#~ msgid "Netdisk"
+#~ msgstr "网盘"
+
+#~ msgid "Network"
+#~ msgstr "网络"
+
+#~ msgid "Not logged in"
+#~ msgstr "没有登录"
+
+#~ msgid "Base"
+#~ msgstr "基本"
+
+#~ msgid "Mobile already registered."
+#~ msgstr "手机号已被注册。"
+
+#~ msgid "Path"
+#~ msgstr "路径"
+
+#~ msgid ""
+#~ "Just prototype. The next version will continue to improve. Click the "
+#~ "'OCR' button to start OCR."
+#~ msgstr "只是原型，下版本会继续完善。单击“OCR”按钮开始OCR"
+
+#~ msgid "Name"
+#~ msgstr "姓名"
+
+#~ msgid "Address"
+#~ msgstr "地址"
+
+#~ msgid "Current nickname: "
+#~ msgstr "当前昵称"
+
+#~ msgid "Edit nickname"
+#~ msgstr "编辑昵称"
+
+#~ msgid "Ereas"
+#~ msgstr "删除"
+
+#~ msgid "Global"
+#~ msgstr "全局"
+
+#~ msgid "Just prototype. The next version will continue to improve."
+#~ msgstr "只是原型，下版本会继续完善。"

@@ -1,0 +1,5 @@
+zlib  ---zlib1.2.8
+bzip2 ---bzip2-1.0.6
+boost ---boost_1_66_0
+
+third_party/ffmpeg  ---Only header. Place here instead with linker/include, because webrtc quire this location.

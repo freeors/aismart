@@ -1,0 +1,175 @@
+/* $Id: widget_definition.cpp 52533 2012-01-07 02:35:17Z shadowmaster $ */
+/*
+   Copyright (C) 2007 - 2012 by Mark de Wever <koraq@xs4all.nl>
+   Part of the Battle for Wesnoth Project http://www.wesnoth.org/
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY.
+
+   See the COPYING file for more details.
+*/
+
+#define GETTEXT_DOMAIN "rose-lib"
+
+#include "gui/auxiliary/widget_definition.hpp"
+
+#include "gettext.hpp"
+#include "gui/widgets/helper.hpp"
+#include "gui/widgets/widget.hpp"
+#include "wml_exception.hpp"
+
+namespace gui2 {
+
+tresolution_definition_::tresolution_definition_(const config& cfg)
+	: window_width(cfg["window_width"].to_int())
+	, window_height(cfg["window_height"].to_int())
+	, min_width(cfg["min_width"].to_int())
+	, min_height(cfg["min_height"].to_int())
+	, text_extra_width(cfg["extra_width"].to_int())
+	, text_extra_height(cfg["extra_height"].to_int())
+	, text_space_width(cfg["text_space_width"].to_int())
+	, text_space_height(cfg["text_space_height"].to_int())
+	, label_is_text(cfg["label_is_text"].to_bool())
+	, icon_is_main(cfg["icon_is_main"].to_bool())
+	, state()
+{
+/*WIKI
+ * @page = GUIToolkitWML
+ * @order = 1_widget
+ * @begin{parent}{name=generic/widget_definition/}
+ * == Resolution ==
+ * @begin{tag}{name="resolution"}{min="0"}{max="-1"}
+ *
+ * Depending on the resolution a widget can look different. Resolutions are
+ * evaluated in order of appearance. The ''window_width'' and ''window_height''
+ * are the upper limit this resolution is valid for. When one of the sizes
+ * gets above the limit, the next resolution is selected. There's one special
+ * case where both values are ''0''. This resolution always matches. (Resolution
+ * definitions behind that one will never be picked.) This resolution can be
+ * used as upper limit or if there's only one resolution.
+ *
+ * The default (and also minimum) size of a button is determined by two items,
+ * the wanted default size and the size needed for the text. The size of the
+ * text differs per used widget so needs to be determined per button.
+ *
+ * Container widgets like panels and windows have other rules for their sizes.
+ * Their sizes are based on the size of their children (and the border they need
+ * themselves). It's wise to set all sizes to 0 for these kind of widgets.
+ *
+ * @begin{table}{config}
+ * window_width & unsigned & 0 &   Width of the application window. $
+ * window_height & unsigned & 0 &  Height of the application window. $
+ *
+ *
+ * min_width & unsigned & 0 &      The minimum width of the widget. $
+ * min_height & unsigned & 0 &     The minimum height of the widget. $
+ *
+ *
+ * default_width & unsigned & 0 &  The default width of the widget. $
+ * default_height & unsigned & 0 & The default height of the widget. $
+ *
+ *
+ * max_width & unsigned & 0 &      The maximum width of the widget. $
+ * max_height & unsigned & 0 &     The maximum height of the widget. $
+ *
+ * text_extra_width & unsigned & 0 &
+ *     The extra width needed to determine the minimal size for the text. $
+ *
+ * text_extra_height & unsigned & 0 &
+ *     The extra height needed to determine the minimal size for the text. $
+ *
+ * text_font_size & unsigned & 0 &
+ *     The font size, which needs to be used to determine the minimal size for
+ *     the text. $
+ *
+ * text_font_style & font_style & "" &
+ *     The font style, which needs to be used to determine the minimal size for
+ *     the text. $
+ *
+ *
+ * state & section & &
+ *     Every widget has one or more state sections. Note they aren't called
+ *     state but state_xxx the exact names are listed per widget. $
+ * @end{table}
+ * @end{tag}{name="resolution"}
+ * @end{parent}{name=generic/widget_definition/}
+ */
+
+	VALIDATE(window_width >= 0 && window_height >= 0, null_str);
+	if (window_width && window_height) {
+		window_width = (window_width + 1) * twidget::hdpi_scale - 1;
+		window_height = (window_height + 1) * twidget::hdpi_scale - 1;
+	}
+
+	VALIDATE(!(min_width % 4) && !(min_height % 4) && !(text_extra_width % 4) && !(text_extra_height % 4), null_str);
+	min_width = cfg_2_os_size(min_width);
+	min_height = cfg_2_os_size(min_height);
+	text_extra_width = cfg_2_os_size(text_extra_width);
+	text_extra_height = cfg_2_os_size(text_extra_height);
+
+	if (text_space_width) {
+		VALIDATE(!text_space_height, null_str);
+		text_space_width *= twidget::hdpi_scale;
+
+	} else if (text_space_height) {
+		VALIDATE(!text_space_width, null_str);
+		text_space_height *= twidget::hdpi_scale;
+	}
+}
+
+tcontrol_definition::tcontrol_definition(const config& cfg)
+	: id(cfg["id"])
+	, app(cfg["app"])
+	, description(cfg["description"].t_str())
+	, resolutions()
+	, label_is_text(false)
+{
+/*WIKI
+ * @page = GUIWidgetDefinitionWML
+ * @order = 1
+ *
+ * {{Autogenerated}}
+ *
+ * = Widget definition =
+ *
+ * This page describes the definition of all widgets in the toolkit. Every
+ * widget has some parts in common, first of all; every definition has the
+ * following fields.
+ * @begin{parent}{name="generic/"}
+ * @begin{tag}{name=widget_definition}{min=0}{max=1}
+ * @begin{table}{config}
+ *     id & string & &               Unique id for this gui (theme). $
+ *     description & t_string & &    Unique translatable name for this gui. $
+ *
+ *     resolution & section & &      The definitions of the widget in various
+ *                                   resolutions. $
+ * @end{table}
+ * @end{tag}{name=widget_definition}
+ * @end{parent}{name="generic/"}
+ */
+
+	VALIDATE(!id.empty(), missing_mandatory_wml_key("control", "id"));
+	VALIDATE(!description.empty(), missing_mandatory_wml_key("control", "description"));
+
+	/*
+	 * Do this validation here instead of in load_resolutions so the
+	 * translatable string is not in the header and we don't need to pull in
+	 * extra header dependencies.
+	 */
+	config::const_child_itors itors = cfg.child_range("resolution");
+	VALIDATE(itors.first != itors.second, _("No resolution defined."));
+}
+
+void tcontrol_definition::throw_inconsistent_label_is_text() const
+{	
+	std::stringstream err;
+	err << "label_is_text of " << utils::generate_app_prefix_id(app, id) << "must be all yes or no.";
+	VALIDATE(false, err.str());
+}
+
+} // namespace gui2
+

@@ -1,0 +1,2 @@
+#define LIBINTL_DLL_EXPORTED
+

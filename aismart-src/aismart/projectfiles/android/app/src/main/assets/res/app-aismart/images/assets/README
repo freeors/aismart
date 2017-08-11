@@ -1,0 +1,20 @@
+This directory is used to generate app images. It require to contains below image.
+
+1)ic_launcher-192.png, 192x192,  Android-desktop icon
+It will generate other launcher.png.
+48x48        mipmap-mdpi        ic_launcher-48.png
+72x72        mipmap-hdpi        ic_launcher-72.png
+96x96        mipmap-xhdpi       ic_launcher-96.png
+144x144      mipmap-xxhdpi      ic_launcher-144.png
+192x192      mipmap-xxxhdpi     ic_launcher-192.png
+
+
+2)Icon-152.png, 152x152, iOS-desktop icon
+It will generate other Icon.png.
+Icon-76.png, Icon-120.png
+
+3)Default-414w-736h@3x.png, 1242x2208(Portrait)/2208x1242(Landscape), iOS-launch image
+It will generate other launch image.
+Default-568h@2x.png          640x1136
+Default-375w-667h@2x.png     750x1334
+Default-414w-736h@3x.png     1242x2208

@@ -1,0 +1,3 @@
+# This file is used by gcl to get repository specific information.
+CODE_REVIEW_SERVER: codereview.webrtc.org
+CC_LIST: webrtc-reviews@webrtc.org
